@@ -13,12 +13,13 @@ header nav {
   display: flex;
   width: 691px;
   vertical-align: top;
-  margin-top: 35px;
+  margin-top: 37px;
+  margin-left: 46px;
 }
 
 header nav a {
-  margin-right: 66px;
-  font-size: 14px;
+  margin-right: 81px;
+  font-size: 16px;
   color: gray;
   text-decoration: none;
 }
@@ -36,14 +37,32 @@ header nav a:last-child {
 }
 
 header .logo {
-  margin-top: 25px;
+  margin-top: 8px;
+  margin-left: 40px;
 }
 
 /* Top Image */
-
+.top-content-logo {
+  margin-top: 39px;
+  margin-left: 39px;
+}
 
 /* About Section */
+.about-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+  margin-top: 20px;
+}
 
+.about-info h4 {
+  padding-left: 24px;
+}
+
+.about-info p {
+  padding-left: 24px;
+  width: 780px;
+}
 
 /* Upper Main Section */
 .top-main {
@@ -82,20 +101,23 @@ header .logo {
 
 /* Footer */
 footer {
-    width: 100%;
-    background: black;
+  width: 800px;
+  background: black;
+  margin-left: 35px;
 }
 
 footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+  margin-top: 35px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
 }
 
 footer nav a {
-    color: white;
-    text-decoration: none;
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
 }
