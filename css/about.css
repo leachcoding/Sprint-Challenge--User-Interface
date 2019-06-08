@@ -1,0 +1,101 @@
+/* Main Container */
+.container {
+  width: 880px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  display: flex;
+}
+
+header nav {
+  display: flex;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header nav a {
+  margin-right: 66px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  margin-top: 25px;
+}
+
+/* Top Image */
+
+
+/* About Section */
+
+
+/* Upper Main Section */
+.top-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-main .strategy {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-main .how-we-work {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Lower Main Section */
+.bottom-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-main ..places-we-work {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-main .collaboration {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Lets Work Together Section */
+
+
+/* Footer */
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}

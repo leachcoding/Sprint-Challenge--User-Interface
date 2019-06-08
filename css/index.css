@@ -15,11 +15,12 @@ header nav {
   display: flex;
   width: 691px;
   vertical-align: top;
-  margin-top: 35px;
+  margin-top: 37px;
+  margin-left: 43px;
 }
 
 header nav a {
-  margin-right: 66px;
+  margin-right: 91px;
   font-size: 14px;
   color: gray;
   text-decoration: none;
@@ -38,7 +39,13 @@ header nav a:last-child {
 }
 
 header .logo {
-  margin-top: 25px;
+  margin-top: 10px;
+  margin-left: 44px;
+}
+
+.top-content-logo {
+  margin-top: 41px;
+  margin-left: 43px;
 }
 
 /* The Future / The Past Section */
@@ -47,7 +54,6 @@ header .logo {
   display: flex;
   flex-direction: row;
 	margin-bottom: 20px;
-  border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -62,8 +68,6 @@ header .logo {
 
 .middle-content {
   margin-bottom: 20px;
-  border-bottom: 1px dashed black;
-	border-top: 1px dashed black;
 }
 
 .middle-content h2 {
@@ -88,7 +92,7 @@ header .logo {
     justify-content: center;
 }
 
-/* Box Colors */
+/* Box Color */
 
 .middle-content .boxes .box1 {
   background-color: teal;
