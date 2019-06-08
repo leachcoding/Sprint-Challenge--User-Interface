@@ -51,7 +51,7 @@ header .logo {
 .about-info {
   display: flex;
   flex-direction: column;
-  margin-left: 45px;
+  margin-left: 43px;
   margin-top: 20px;
 }
 
@@ -64,50 +64,161 @@ header .logo {
   width: 780px;
 }
 
+.top-line {
+  border: 1px dashed black;
+  margin-top: 20px;
+}
+
 /* Upper Main Section */
 .top-main {
   display: flex;
   flex-direction: row;
+  margin-top: 26px;
 }
 
 .top-main .strategy {
   display: flex;
   flex-direction: column;
+  width: 42%;
+  margin-left: 55px;
+  margin-right: 28px;
+  border-bottom: 1px dashed black;
+}
+
+.top-main .strategy h4 {
+  margin-top: 17px;
+}
+
+.top-main .strategy button {
+  background: white;
+  vertical-align: top;
+  width: 130px;
+  height: 45px;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.top-main .strategy .strategy-line {
+  border: 1px dashed black;
 }
 
 .top-main .how-we-work {
   display: flex;
   flex-direction: column;
+  width: 42%;
+  border-bottom: 1px dashed black;
+}
+
+.top-main .how-we-work h4 {
+  margin-top: 17px;
+}
+
+.top-main .how-we-work button {
+  background: white;
+  vertical-align: top;
+  width: 130px;
+  height: 45px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.how-we-work-line {
+  border: 1px dashed black;
 }
 
 /* Lower Main Section */
 .bottom-main {
   display: flex;
   flex-direction: row;
+  margin-top: 58px;
 }
 
-.bottom-main ..places-we-work {
+.bottom-main .places-we-work {
   display: flex;
   flex-direction: column;
+  width: 42%;
+  margin-left: 55px;
+  margin-right: 28px;
+  border-bottom: 1px dashed black;
+}
+
+.bottom-main .places-we-work h4 {
+  margin-top: 17px;
+}
+
+.bottom-main .places-we-work button {
+  background: white;
+  vertical-align: top;
+  width: 130px;
+  height: 45px;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 18px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.bottom-main .places-we-work .places-we-work-line {
+  border: 1px dashed black;
 }
 
 .bottom-main .collaboration {
   display: flex;
   flex-direction: column;
+  width: 42%;
+  border-bottom: 1px dashed black;
 }
 
+.bottom-main .collaboration h4 {
+  margin-top: 17px;
+}
+
+.bottom-main .collaboration button {
+  background: white;
+  vertical-align: top;
+  width: 130px;
+  height: 45px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.bottom-main .collaboration .collaboration-line {
+  border: 1px dashed black;
+}
 /* Lets Work Together Section */
+
+.lets-work-together {
+  display: flex;
+  flex-direction: column;
+}
+
+.lets-work-together h4 {
+  margin-top: 46px;
+  margin-left: 60px;
+}
+
+.lets-work-together p {
+  width: 90%;
+  margin-left: 60px;
+}
 
 
 /* Footer */
 footer {
   width: 800px;
   background: black;
-  margin-left: 35px;
+  margin-left: 40px;
 }
 
 footer nav {
-  margin-top: 35px;
+  margin-top: 40px;
   width: 60%;
   display: flex;
   justify-content: space-between;
